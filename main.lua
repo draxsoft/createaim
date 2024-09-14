@@ -1,7 +1,7 @@
 -- Ensure you have Rayfield UI and its dependencies loaded in your environment.
 
 -- Dependencies
-local Rayfield = require(game:GetService("ReplicatedStorage"):WaitForChild("Rayfield"))
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Create a Rayfield UI instance
 local window = Rayfield:CreateWindow({
